@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Empresa</title>
+   
+</head>
+
+<style>
+    input{
+        border-color: blue;
+        justify-content: center;
+        align-items: center;
+    }
+
+    label{
+        
+        color: brown;
+    }
+
+    
+</style>
+
+
+<body>
+
+
+
+    <h1>Formulário Empresa</h1>
+<form action=""method="get" name="form-cadastro">
+
+<label for="nome" id="nome">Nome Do funcionário</label> <br>
+<input type="text" name="nome" id="nome" > <br>
+
+<label for="departamento">Departamento</label> <br>
+<select name="departamento" id="departamento">
+    <option value="nulo" disabled selected>Selecione uma opção</option>
+    <option value="contabilidade">Contabilidade</option>
+    <option value="fiscal">Fiscal</option>
+    <option value="legal">Legal</option>
+    <option value="financeiro">Financeiro</option><br>
+
+</select> <br>
+
+<label for="email" id="email">E-mail Corporativo</label> <br>
+<input type="email"> <br>
+
+<label for="data" id="data">Data de Admissão</label> <br>
+<input type="date"> <br>
+
+<input type="checkbox" name="contrato" id="contrato">
+<label for="contrato">Aceito Participar do sindicato da empresa</label> <br>
+
+<input type="submit" value="enviar solicitação">
+
+
+<!-- <label for="cidade">Cidade</label>
+<select name="cidades">
+    <option value="barueri">Barueri</option>
+    <option value="itapevi">Itapevi</option>
+    <option value="jandira" selected>Jandira</option>
+    <option value="osasco">Osasco</option>
+    <option value="sorocaba">Sorocaba</option>
+ -->
+
+
+</form>
+
+
+
+</body>
+</html>
